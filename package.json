@@ -1,0 +1,23 @@
+{
+  "name": "geoguessr-assistant",
+  "version": "2.1.0",
+  "type": "module",
+  "description": "Universal geography game assistant with Mini Map - GeoGuessr, WorldGuessr, OpenGuessr, FreeGuessr",
+  "author": "Bintang Toba Pro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JD-YH03D/release.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "clean": "rm -rf dist/"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "rollup": "^4.9.6",
+    "rollup-plugin-string": "^3.0.0"
+  }
+}
